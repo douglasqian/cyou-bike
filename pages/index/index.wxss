@@ -1,0 +1,24 @@
+/**index.wxss**/
+.scan {
+  height: 128rpx;
+  width: 307rpx;
+  bottom: 20rpx;
+  left: 200rpx;
+  position: absolute;
+}
+
+.options {
+  height: 128rpx;  
+  width: 128rpx;
+  bottom: 20rpx;
+  left: 550rpx;
+  position: absolute;
+}
+
+.locate {
+  height: 128rpx;
+  width: 128rpx;
+  bottom: 20rpx;
+  left: 50rpx;
+  position: absolute;
+}
