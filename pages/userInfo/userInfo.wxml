@@ -1,0 +1,18 @@
+<!--pages/userInfo/userInfo.wxml-->
+<view class="container">
+  <view class="box">
+    <view class="left">注册手机 </view> <view class="right"> 13391098689 </view>
+  </view>
+  <view class="box">
+    <view class="left">实名认证</view> <view class="right"> 已认证 </view>
+  </view>
+  <view class="box">
+    <view class="left">押金缴纳</view> <view class="right"> 299元 </view>
+  </view>
+  <view class="box">
+    <view class="left">账户余额</view> <view class="right"> 5元 </view>
+  </view>
+  <view class="box">
+    <view class="left">订单明细</view> <view class="moreinfo" bindtap="toMoreInfo"> 更多 </view>
+  </view>
+</view>

@@ -1,24 +1,63 @@
 /**index.wxss**/
+.icons {
+  position: absolute;
+  z-index: 50;
+  bottom: 0;
+}
+
 .scan {
   height: 128rpx;
   width: 307rpx;
-  bottom: 20rpx;
-  left: 200rpx;
+  display: flex;
+  bottom: 4%;
+  left: 50%;
+  margin-left: 22%;
   position: absolute;
 }
 
 .options {
   height: 128rpx;  
   width: 128rpx;
-  bottom: 20rpx;
-  left: 550rpx;
+  bottom: 10%;
+  right: 5%;
   position: absolute;
 }
 
 .locate {
   height: 128rpx;
   width: 128rpx;
-  bottom: 20rpx;
-  left: 50rpx;
+  bottom: 4%;
+  left: 5%;
   position: absolute;
 }
+
+.information {
+  width: 90%;
+  height: 200rpx;
+  background-color: white;
+  border-style: solid;
+  border-color: #CCCCCC;
+  border-width: 2rpx;
+  position: fixed;
+  bottom: 15%;
+  left: 50%;
+  margin-left: -45%;
+  z-index: 1000;
+}
+
+.information image{
+  float: left;
+  width: 33.33%;
+  height: 110rpx;
+  padding-top: 15rpx;
+}
+
+.information view{
+  font-size: 30rpx;
+  float: left;
+  width:33.33%;
+  height: 55rpx;
+  text-align: center;
+  padding-top: 25rpx;
+}
+

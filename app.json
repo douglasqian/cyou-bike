@@ -1,8 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
-  ],
+    "pages/logs/logs",
+    "pages/userInfo/userInfo"
+      ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#000000",
